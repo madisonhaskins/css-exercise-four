@@ -4,7 +4,7 @@
 
 body {
   background-color: #dadada;
-  font-size: 10px;
+  font-size: 30px;
 }
 
 .container {
@@ -17,11 +17,28 @@ div {
   float: left;
   margin: 1% 0;
   width: 100%;
+  height: 7em;
   padding: 20px 25px;
 }
 
-img {
-  width: 90%;
+.previewbaku{
+  background-image: url('../images/baku.jpg');
+  background-size: cover;
+}
+
+.previewlondon{
+  background-image: url('../images/london.png');
+  background-size: cover;
+}
+
+.previewmadrid{
+  background-image: url('../images/madrid.jpg');
+  background-size: cover;
+}
+
+.previewrome{
+  background-image: url('../images/rome.jpg');
+  background-size: cover;
 }
 
 /* code added to create two-column design */
